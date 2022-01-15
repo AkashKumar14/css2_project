@@ -1,0 +1,204 @@
+
+    
+
+body{
+    font-family: Arial,Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    margin-left: 10px;
+    width:50%;
+    justify-content: space-between;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+.title1{
+    font-weight: 700;
+    font-size: 56px;
+    padding-right:10px;
+}
+@media only screen and (max-width: 500px) {
+    .title1{
+        font-size: 40px;
+    }  
+    
+}
+
+.title2{
+    font-weight: 100;
+    font-size: 56px;
+    color: gray;
+}
+@media only screen and (max-width: 500px) {
+    .title2{
+        font-size: 40px;
+    }  
+    
+}
+.addList{
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 500px) {
+    .flex{
+        width: 100%;
+        display: block;
+    }  
+    
+}
+.task1, .task2, .task3, .task4, .task5{
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    height: 160px;
+    border: 2px solid tomato;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px gray;
+    padding: 0px 0px 120px 0px;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+@media only screen and (max-width: 500px) {
+    .task1, .task2, .task3, .task4, .task5{
+        height: 10px;
+        flex-direction: row;
+        justify-content: none;
+        width: 90%;
+        padding: 0px 0px 50px 0px;
+        margin-left: none;
+        margin-right: 10px;
+    }  
+    
+}
+
+.task1_title, .task2_title, .task3_title, .task4_title, .task5_title{
+    padding: 20px 10px 20px 10px;
+    font-weight: 300;
+    margin: 10px 0px;
+    font-size: 26px;
+} 
+.task_body{
+    padding-top: 10px;
+    font-size: 20px;
+}
+@media only screen and (max-width: 500px) {
+    .task_body{
+        display: none;
+    }  
+    
+}
+
+.material-icons{
+    color: tomato;
+    padding:0px 10px;
+    font-size: 40px;
+}
+@media only screen and (max-width: 500px) {
+    .material-icons{
+        margin-left: 99%;
+    }  
+    
+}
+.addText{
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 100px;
+    color: gray;
+}
+@media only screen and (max-width: 500px) {
+    .addText{
+        font-size: 0%;
+    }  
+    
+}
+.overview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    filter: blur(4px);
+}
+hr{
+    width: 84%;
+    margin-right:0px;
+}
+@media only screen and (max-width: 500px) {
+    hr{
+        display:none;
+    }
+}
+
+.addNewList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid tomato;
+    border-radius: 10px;
+    text-align: center;
+    width: 30vw;
+    height: 35vh;
+    z-index: 1;
+    position:absolute;
+    top: 40vh;
+    left: 35vw;
+    background-color:white;
+    box-sizing: border-box;
+    padding: 26px 0px 0px 0px;
+    color: tomato;
+    font-weight:lighter;
+}
+@media only screen and (max-width: 500px) {
+    .addNewList{
+        width: 50%;
+        left:22vm;
+        height: 30vm;
+        
+    }
+}
+.inputText{
+    width: 60%;
+    height:15%;
+    box-shadow: 1px 1px 4px gray;
+    border: 1px solid tomato;
+    border-radius:5px;
+    padding: 0px 0px 10px 0px;
+}
+.btn{
+    color: white;
+    background-color: tomato;
+    width: 150%;
+    height: 120%;
+    border-radius: 50px;
+    font-size: 24px;
+    margin: 10px 0px 0px 0px;
+    position: relative;
+    right: 20px;
+}
+@media only screen and (max-width: 500px) {
+    .btn{
+        width: 130%;
+        height: 60%;
+        font-size: 20;
+        padding: auto;
+        
+    }
+}
+
+
